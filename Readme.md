@@ -16,18 +16,18 @@ sudo /opt/lampp/lampp startmysql
 Su PORTS aggiungi la porta 80
 
 # Apache e phpmyadmin
-Click su icona mondo in PORTS
+Click su icona 🌍 in PORTS (Open in Browser)
 ti porta su url
-https://{progetto}.app.github.dev/dashboard/
-phpmyadmin:
-https://{progetto}.app.github.dev/phpmyadmin
+https://{codespace}.app.github.dev/dashboard/
+Url per aprire phpmyadmin:
+https://{codespace}.app.github.dev/phpmyadmin
 
-# Creare un progetto
+# Creare un progetto (PHP+html+css+js)
 mkdir proj01
 sudo ln -sf $PWD/proj01 /opt/lampp/htdocs/dashboard/
 
-Creare i file in proj01, ad es. hello.php
+Creare ad es. il file hello.php in proj01/
 
 Eseguire il progetto 
-https://{progetto}.app.github.dev/dashboard/proj01/hello.php
+https://{codespace}.app.github.dev/dashboard/proj01/hello.php
 
