@@ -23,10 +23,9 @@ phpmyadmin:
 https://{progetto}.app.github.dev/phpmyadmin
 
 # Creare un progetto
-sudo mkdir /opt/lampp/htdocs/dashboard/proj01
-sudo chmod a+rwx /opt/lampp/htdocs/dashboard/proj01
+mkdir proj01
+sudo ln -sf $PWD/proj01 /opt/lampp/htdocs/dashboard/
 
-ln -s /opt/lampp/htdocs/dashboard/proj01
 Creare i file in proj01, ad es. hello.php
 
 Eseguire il progetto 
